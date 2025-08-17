@@ -5,7 +5,7 @@ import json
 import os
 
 import os
-TOKEN = os.environ["MTQwNjY2ODUwODI3NTgwNjQ1MA.G40Drk.LjiXC6S77ibtuOglTCcrPKJJbrBCr8wASFWPyk"]
+TOKEN = os.environ["DISCORD_TOKEN"]
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
